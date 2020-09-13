@@ -1,0 +1,142 @@
+.login-wrap {
+  width: 100%;
+  margin: auto;
+  max-width: 95vw;
+  min-height: 95vh;
+  position: absolute;
+  background: url(https://i.imgur.com/HgflTDf.jpg) cover center;
+  box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.login-html {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  /* padding: 90px 70px 50px 70px; */
+  background: rgba(40, 57, 101, 0.85);
+  /* background: #e6e6e6; */
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+#logout-btn {
+  position: absolute;
+  top: 1%;
+  right: 3.5%;
+  z-index: 1;
+}
+
+#profile-btn {
+  position: absolute;
+  top: 8%;
+  right: 3.5%;
+  z-index: 1;
+}
+
+.navbar {
+  width: 100%;
+}
+
+.swiper-container {
+  width: 100%;
+  height: auto;
+  z-index: 0;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px rgb(41, 41, 41);
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(22, 22, 22);
+  border-radius: 10px;
+}
+
+.dark-grey-text {
+  margin: 15% auto;
+}
+
+.laptop-card-holder {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  justify-items: center;
+  flex-wrap: wrap;
+}
+
+.options {
+  display: flex;
+  width: 20%;
+  align-self: flex-start;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.search-btn {
+  display: flex;
+  background: #2f3640;
+  justify-content: center;
+  width: 22px;
+  height: 22px;
+  border-radius: 100%;
+  align-items: center;
+  float: right;
+  color: whitesmoke;
+  transition: 0.4s;
+}
+
+.search-txt {
+  border: none;
+  color: white;
+  float: left;
+  padding: 0px;
+  font-size: 16px;
+  background: none;
+  transition: 0.4s;
+  line-height: 40px;
+  width: 0px;
+  height: 22px;
+}
+
+.search-box:hover > .search-txt {
+  width: 240px;
+  padding: 0 6px;
+}
+
+.search-box:hover > .search-btn {
+  background: #2f3640;
+}
+
+.search-box {
+  position: absolute;
+  top: 90%;
+/**was changed this from 30%**/
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background: #2f3640;
+  height: 40px;
+  border-radius: 40px;
+  padding: 10px;
+}
+
+.options {
+  margin-left: 5px;
+  padding-right: 5px;
+}
+
+.lower-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-content: flex-start;
+}
